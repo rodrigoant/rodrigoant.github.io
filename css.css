@@ -1,0 +1,160 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.img-responsive {
+	max-width: 100%
+}
+
+#topline {
+    background-color: #0091ea;
+    position: relative;
+    height: 10px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+#section-main {
+    height: 540px;
+    background-image: url(imgs/maintexture-wide.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+	display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+	align-items: center;
+   	justify-content: center;	
+   	text-align: center;	
+}
+
+#section-main .container {
+	padding:0 20px;
+   	flex-direction: column;
+
+}
+
+#section-main h1 {
+    font-weight: 100;
+    font-size: 37px;
+    color: #0091ea;
+    display: block;
+}
+
+#section-main h3 {
+    font-weight: 100;
+    font-size: 25px;
+    color: #808080;
+    display: block;
+    padding:10px;
+}
+
+#section-main hr {
+	width: 50px;
+	margin:0 auto;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#section-main p {
+	font-weight: 300;
+    font-size: 18px;
+    color: #888;
+	display: block;
+}
+
+.container {
+	display: block;
+	margin:0 auto;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.section {
+	padding:100px 0;
+}
+
+.section:nth-child(even) {
+	background: #f9f9f9	
+}
+.section:nth-child(odd) {
+	background: #f0f0f0	
+}
+
+.left-container,
+.right-container {
+	width: 50%
+}
+
+.right-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	margin-left:50px;
+}
+
+.right-container hr {
+	width: 50px;
+	margin:20px 0;
+}
+
+.client-name {
+    font-weight: 100;
+    font-size: 37px;
+    color: #000;
+    opacity: 0.7;
+}
+
+.client-info {
+    font-weight: 100;
+    font-size: 20px;
+    color: #000;
+    opacity: 0.7;
+}
+
+
+
+@media all and (min-width: 1280px)  {
+	.container {
+		width: 1280px;
+	}
+}
+
+@media all and (max-width: 1280px) and (min-width: 1024px) {
+	.container {
+		width: 1000px;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	.container {
+		width: 1000px;
+		flex-direction: column;
+		align-self: center;
+	}
+
+	.section {
+		padding:50px 0;
+	}
+
+	.right-container {
+		margin:30px 0 0 0;
+		display: block;
+	}
+
+	.left-container,
+	.right-container {
+		width: 100%;
+		padding:0 50px;
+		box-sizing: border-box;
+	}
+
+}
