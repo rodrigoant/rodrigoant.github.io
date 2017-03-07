@@ -136,7 +136,7 @@ body {
 
 @media all and (max-width: 1024px) {
 	.container {
-		width: 1000px;
+		width: 100%;
 		flex-direction: column;
 		align-self: center;
 	}
