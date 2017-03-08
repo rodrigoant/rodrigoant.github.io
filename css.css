@@ -110,9 +110,9 @@ body {
 #section-main .contato {
 	display: inherit;
     margin: 80px auto 0 auto;
-    -webkit-animation:fadeUp 1s 0.6s ease backwards;
-    -moz-animation:fadeUp 1s 0.6s ease backwards;
-    animation:fadeUp 1s 0.6s ease backwards;
+    -webkit-animation:fadeUp 1s 0.7s ease backwards;
+    -moz-animation:fadeUp 1s 0.7s ease backwards;
+    animation:fadeUp 1s 0.7s ease backwards;
     will-change:transform opacity;
 }
 #section-main .contato > div {
