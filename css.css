@@ -45,7 +45,7 @@ body {
 
 #section-main .container {
 	padding:0 20px;
-   	flex-direction: column;
+   	display: block
 
 }
 
@@ -108,7 +108,7 @@ body {
 }
 
 #section-main .contato {
-	display: inherit;
+	display: inline-flex;
     margin: 80px auto 0 auto;
     -webkit-animation:fadeUp 1s 0.7s ease backwards;
     -moz-animation:fadeUp 1s 0.7s ease backwards;
