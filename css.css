@@ -70,6 +70,7 @@ body {
     -webkit-animation:fadeUp 1s 0.2s ease backwards;
     -moz-animation:fadeUp 1s 0.2s ease backwards;
     animation:fadeUp 1s 0.2s ease backwards;
+    will-change:transform opacity;
 }
 
 #section-main h3 {
@@ -81,6 +82,7 @@ body {
     -webkit-animation:fadeUp 1s 0.3s ease backwards;
     -moz-animation:fadeUp 1s 0.3s ease backwards;
     animation:fadeUp 1s 0.3s ease backwards;
+    will-change:transform opacity;
 }
 
 #section-main hr {
@@ -91,6 +93,7 @@ body {
     -webkit-animation:fadeUp 1s 0.4s ease backwards;
     -moz-animation:fadeUp 1s 0.4s ease backwards;
     animation:fadeUp 1s 0.4s ease backwards;
+    will-change:transform opacity;
 }
 
 #section-main p {
@@ -101,6 +104,7 @@ body {
     -webkit-animation:fadeUp 1s 0.5s ease backwards;
     -moz-animation:fadeUp 1s 0.5s ease backwards;
     animation:fadeUp 1s 0.5s ease backwards;
+    will-change:transform opacity;
 }
 
 #section-main .contato {
@@ -109,7 +113,7 @@ body {
     -webkit-animation:fadeUp 1s 0.6s ease backwards;
     -moz-animation:fadeUp 1s 0.6s ease backwards;
     animation:fadeUp 1s 0.6s ease backwards;
-
+    will-change:transform opacity;
 }
 #section-main .contato > div {
 	margin:0 10px;
