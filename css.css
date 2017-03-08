@@ -49,11 +49,27 @@ body {
 
 }
 
+@-webkit-keyframes fadeUp {
+	0% { opacity:0; -webkit-transform:translateY(50px); }
+  100% { opacity:1;  -webkit-transform:translateY(0px); }
+}
+@-moz-keyframes fadeUp {
+	0% { opacity:0; -moz-transform:translateY(50px); }
+  100% { opacity:1;  -moz-transform:translateY(0px); }
+}
+@keyframes fadeUp {
+	0% { opacity:0; transform:translateY(50px); }
+  100% { opacity:1;  transform:translateY(0px); }
+}
+
 #section-main h1 {
     font-weight: 100;
     font-size: 37px;
     color: #0091ea;
     display: block;
+    -webkit-animation:fadeUp 1s 0.2s ease backwards;
+    -moz-animation:fadeUp 1s 0.2s ease backwards;
+    animation:fadeUp 1s 0.2s ease backwards;
 }
 
 #section-main h3 {
@@ -62,6 +78,9 @@ body {
     color: #808080;
     display: block;
     padding:10px;
+    -webkit-animation:fadeUp 1s 0.3s ease backwards;
+    -moz-animation:fadeUp 1s 0.3s ease backwards;
+    animation:fadeUp 1s 0.3s ease backwards;
 }
 
 #section-main hr {
@@ -69,6 +88,9 @@ body {
 	margin:0 auto;
 	display: block;
 	margin-bottom: 10px;
+    -webkit-animation:fadeUp 1s 0.4s ease backwards;
+    -moz-animation:fadeUp 1s 0.4s ease backwards;
+    animation:fadeUp 1s 0.4s ease backwards;
 }
 
 #section-main p {
@@ -76,15 +98,24 @@ body {
     font-size: 18px;
     color: #888;
 	display: block;
+    -webkit-animation:fadeUp 1s 0.5s ease backwards;
+    -moz-animation:fadeUp 1s 0.5s ease backwards;
+    animation:fadeUp 1s 0.5s ease backwards;
 }
 
 #section-main .contato {
 	display: inherit;
     margin: 80px auto 0 auto;
+    -webkit-animation:fadeUp 1s 0.6s ease backwards;
+    -moz-animation:fadeUp 1s 0.6s ease backwards;
+    animation:fadeUp 1s 0.6s ease backwards;
+
 }
 #section-main .contato > div {
 	margin:0 10px;
 }
+
+
 
 
 .container {
