@@ -157,15 +157,17 @@ body {
     vertical-align: middle;
 }
 
+.right-container {
+    padding-left:45px;
+}
+
 .right-container hr {
 	width: 50px;
 	margin:20px 0;
     text-align: left;
-    margin-left:20px;
 }
 
 .client-name {
-    margin-left:20px;
     font-weight: 100;
     font-size: 37px;
     color: #000;
@@ -173,7 +175,6 @@ body {
 }
 
 .client-info {
-    margin-left:20px;
     font-weight: 100;
     font-size: 20px;
     color: #000;
@@ -182,11 +183,9 @@ body {
 
 
 .client-desc {
-    margin-left:20px;
 }
 
 .client-link {
-    margin-left:20px;
 	padding:0px 0px 0px 25px;
     background-image: url(imgs/link.png);
     background-repeat: no-repeat;
@@ -219,7 +218,7 @@ body {
 	}
 
     .right-container {
-        margin: 65px 0 65px 40px;
+        padding: 0px 0 0px 40px;
     }
 
 }
@@ -245,19 +244,8 @@ body {
 
     .right-container {
         display: block;
-        margin-top:15px;
+        margin:15px 0 0 0;
     }
-
-
-    .right-container hr,
-    .client-name,
-    .client-info,
-    .client-desc,
-    .client-link {
-        margin-left:0px;
-    }
-
-
 
 
 }
