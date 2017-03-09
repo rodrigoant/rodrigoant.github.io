@@ -108,26 +108,35 @@ body {
 }
 
 #section-main .contato {
-	display: inline-flex;
+	display: block;
     margin: 80px auto 0 auto;
     -webkit-animation:fadeUp 1s 0.7s ease backwards;
     -moz-animation:fadeUp 1s 0.7s ease backwards;
     animation:fadeUp 1s 0.7s ease backwards;
     will-change:transform opacity;
+    width: 100px;
+    height:40px;
 }
-#section-main .contato > div {
-	margin:0 10px;
+
+#section-main .contato > .mail {
+	float:left;
 }
 
+#section-main .contato > .linkedin {
+    float:right;
+}
 
-
+#section-main .contato a,
+#section-main .contato img {
+    text-decoration: none;
+    border:none!important;
+    outline:none!important;
+}
 
 .container {
 	display: block;
 	margin:0 auto;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+    width: 1280px;
 }
 
 .section {
@@ -142,22 +151,21 @@ body {
 	background: #f0f0f0	
 }
 
-.left-container,
-.right-container {
-	width: 50%
-}
-
-.right-container {
-    display: block;
-    margin: 65px 0 65px 40px;
+.left-container, .right-container {
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .right-container hr {
 	width: 50px;
 	margin:20px 0;
+    text-align: left;
+    margin-left:20px;
 }
 
 .client-name {
+    margin-left:20px;
     font-weight: 100;
     font-size: 37px;
     color: #000;
@@ -165,13 +173,20 @@ body {
 }
 
 .client-info {
+    margin-left:20px;
     font-weight: 100;
     font-size: 20px;
     color: #000;
     opacity: 0.7;
 }
 
+
+.client-desc {
+    margin-left:20px;
+}
+
 .client-link {
+    margin-left:20px;
 	padding:0px 0px 0px 25px;
     background-image: url(imgs/link.png);
     background-repeat: no-repeat;
@@ -194,15 +209,19 @@ body {
 }
 
 @media all and (min-width: 1280px)  {
-	.container {
-		width: 1280px;
-	}
+
+
 }
 
 @media all and (max-width: 1280px) and (min-width: 1024px) {
 	.container {
 		width: 1000px;
 	}
+
+    .right-container {
+        margin: 65px 0 65px 40px;
+    }
+
 }
 
 @media all and (max-width: 1024px) {
@@ -216,16 +235,29 @@ body {
 		padding:20px 0;
 	}
 
-	.right-container {
-		margin:30px 0 0 0;
-		display: block;
-	}
-
 	.left-container,
 	.right-container {
 		width: 100%;
 		padding:0 20px;
 		box-sizing: border-box;
+        display: block;
 	}
+
+    .right-container {
+        display: block;
+        margin-top:15px;
+    }
+
+
+    .right-container hr,
+    .client-name,
+    .client-info,
+    .client-desc,
+    .client-link {
+        margin-left:0px;
+    }
+
+
+
 
 }
