@@ -44,7 +44,7 @@ body {
 }
 
 #section-main .container {
-	padding:0 20px;
+	padding:130px 20px;
    	display: block
 
 }
@@ -148,12 +148,8 @@ body {
 }
 
 .right-container {
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: column;
-	justify-content: center;
-	margin-left:50px;
+    display: block;
+    margin: 65px 0 65px 40px;
 }
 
 .right-container hr {
