@@ -85,6 +85,11 @@ body {
     will-change:transform opacity;
 }
 
+#section-main h3 a {
+    text-decoration:none;
+    color: #808080;
+}
+
 #section-main hr {
 	width: 50px;
 	margin:0 auto;
