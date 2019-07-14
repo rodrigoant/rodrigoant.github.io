@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,iBACE,QAAQ,CACR,SAAS,CACT,qBACF,CAEA,KACE,8BACF","file":"main.b827a028.chunk.css","sourcesContent":["*, ::after, ::before {\r\n  margin:0;\r\n  padding:0;\r\n  box-sizing:border-box;\r\n}\r\n\r\nbody {\r\n  font-family: 'Raleway', sans-serif;\r\n}"]}
