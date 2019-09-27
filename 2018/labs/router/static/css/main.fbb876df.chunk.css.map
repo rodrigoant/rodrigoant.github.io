@@ -1,1 +1,0 @@
-{"version":3,"sources":["global.css"],"names":[],"mappings":"AAAA,EAEE,SAAU,CACV,qBAAsB,CACtB,mBACF,CAEA,OANE,QAQF","file":"main.fbb876df.chunk.css","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: \"Raleway\";\r\n}\r\n\r\nbody {\r\n  margin: 0;\r\n}\r\n"]}
